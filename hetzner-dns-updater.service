@@ -1,0 +1,16 @@
+[Unit]
+Description=Hetzner DNS Update to WAN-IP
+After=network.target
+StartLimitBurst=5
+StartLimitIntervalSec=10
+
+[Service]
+Type=simple
+Restart=no
+ExecStart=/path/hetzner-dns-updater-linux-amd64.bin
+WorkingDirectory=/path/
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
