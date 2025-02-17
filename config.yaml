@@ -1,0 +1,13 @@
+token: 'xxxxxx'
+zone_name: 'esh4d0w.dev'
+record_name: 'test'
+record_type: 'A'
+change_record:
+  change_name: false
+  new_name: 'test2'
+  change_type: false
+  new_type: 'A'
+  change_value: true
+  change_value_to_wanip: true
+  new_value: ''
+# Valid record_types are: "A" "AAAA" "NS" "MX" "CNAME" "RP" "TXT" "SOA" "HINFO" "SRV" "DANE" "TLSA" "DS" "CAA"

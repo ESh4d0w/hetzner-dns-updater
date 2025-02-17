@@ -1,5 +1,5 @@
 # Hetzner DNS Updater
 
-Read the config and sets dns to wan ip
+Testing with more options but less clea
 
 This is just a clone from my project in my gitlab
